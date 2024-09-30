@@ -1,0 +1,76 @@
+.colordiv {
+  width: 280px;
+}
+
+.imageicon {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.textp {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+.buttondic {
+  width: 280px;
+  height: 47px;
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-chrome-picker .chrome-picker > div:nth-child(2) {
+  display: none; /* Hide the hue slider */
+}
+
+.custom-chrome-picker .chrome-picker > div:nth-child(3) {
+  display: none; /* Hide the alpha slider */
+}
+
+.custom-chrome-picker .chrome-picker > div {
+  height: auto; /* Adjust the height of the picker */
+}
+
+.custom-chrome-picker .chrome-picker > div {
+  border-radius: 10px 10px 10px 10px !important;
+}
+.chrome-picker {
+  width: 280px !important;
+  border-radius: 10px !important;
+}
+
+.color-info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 13px;
+}
+
+.hex-color-box,
+.rgb-color-box {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.color-info-container {
+  width: 280px;
+}
+
+.rgb-color-box {
+  width: 128px;
+}

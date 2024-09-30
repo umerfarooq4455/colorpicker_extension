@@ -1,0 +1,15 @@
+{
+  "short_name": "Color picker",
+  "name": "Color picker free",
+  "icons": {
+    "16": "favicon.ico",
+    "48": "logo.png"
+  },
+  "permissions": [],
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Color picker"
+  }
+}
