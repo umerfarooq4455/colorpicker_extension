@@ -1,7 +1,21 @@
 .colordiv {
-  width: 280px;
+  width: 348px;
 }
 
+.hue-picker {
+  width: 348px !important;
+  height: 18px !important;
+}
+
+.hue-horizontal {
+  border-radius: 10px !important;
+}
+
+.hue-vertical {
+  width: 19px !important;
+  height: 19px !important;
+  border-radius: 50% !important;
+}
 .imageicon {
   width: 22px;
   height: 22px;
@@ -9,25 +23,26 @@
 }
 
 .textp {
-  font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
 }
 .buttondic {
-  width: 280px;
+  width: 348px;
   height: 47px;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 3px solid #eeeeee !important;
   background-color: black;
   color: #fff;
-  border: none;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid rgb(207, 203, 201);
 }
 
 .custom-chrome-picker .chrome-picker > div:nth-child(2) {
-  display: none; /* Hide the hue slider */
+  display: none;
 }
 
 .custom-chrome-picker .chrome-picker > div:nth-child(3) {
@@ -38,28 +53,30 @@
   height: auto; /* Adjust the height of the picker */
 }
 
-.custom-chrome-picker .chrome-picker > div {
-  border-radius: 10px 10px 10px 10px !important;
+.chrome-picker {
+  box-shadow: none !important;
 }
 .chrome-picker {
-  width: 280px !important;
-  border-radius: 10px !important;
+  width: 348px !important;
 }
 
 .color-info-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 6px;
   margin-top: 13px;
 }
 
 .hex-color-box,
 .rgb-color-box {
   font-size: 16px;
-  padding: 10px;
   border-radius: 5px;
   text-align: center;
   color: white;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 10px;
 }
 
 label {
@@ -68,9 +85,61 @@ label {
 }
 
 .color-info-container {
-  width: 280px;
+  width: 348px;
 }
 
 .rgb-color-box {
-  width: 128px;
+  width: 186px;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.part1head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hetext1 {
+  font-family: "Afacad Flux", sans-serif;
+  font-size: larger;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.hetexta {
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  margin-top: 17px;
+  border-bottom: 1px solid rgb(235, 222, 222);
+}
+.he2 {
+  display: flex;
+  justify-items: center;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.copied {
+  opacity: 74%;
+}
+.recentecolors {
+  display: flex;
+  align-items: center;
+}
+
+.colorbox{
+  width: 25px;
+  height: 25px;
+  background-color: aquamarine;
 }
