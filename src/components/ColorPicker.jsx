@@ -4,6 +4,7 @@ import "./Colorpick.css";
 import icon from "./images/Vector.svg";
 import logo from "../components/images/logo.png";
 import { LuCopy } from "react-icons/lu";
+import Googleads from "./Googleads";
 
 const ColorPicker = () => {
   const [color, setColor] = useState({
@@ -339,6 +340,17 @@ const ColorPicker = () => {
             )}
           </div>
         ))}
+      </div>
+
+      <div
+        style={{
+          marginTop: "10px",
+          display: "flex",
+          gap: "10px",
+          marginBottom: "5px",
+        }}
+      >
+        {/* <Googleads /> */}
       </div>
     </div>
   );

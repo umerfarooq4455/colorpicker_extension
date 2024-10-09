@@ -4,7 +4,8 @@
   "icons": {
     "16": "16.png",
     "48": "48.png",
-    "128": "128.png"
+    "128": "128.png",
+    "440": "backgournd.png"
   },
   "permissions": [],
   "manifest_version": 3,
